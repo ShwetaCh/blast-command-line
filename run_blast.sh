@@ -24,3 +24,6 @@ $BLAST -query $QUERY \
     -evalue 1e-6 \
     -outfmt '7 qseqid sseqid length qlen slen qstart qend sstart send evalue stitle sstrand qseq sseq mismatch qcovs qcovhsp' \
     -html
+    
+    
+    #nohup ./runBlastN.sh > nohup.out &
